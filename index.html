@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <h1 class="heading">Student Registration Form</h1>
+
+    <form class="form">
+
+        <label>Full Name:</label><br>
+        <input class="textbox" type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label>Email:</label><br>
+        <input class="textbox" type="email" placeholder="Enter your email">
+        <br><br>
+
+        <label>Password:</label><br>
+        <input class="textbox" type="password">
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <label>Skills:</label><br>
+
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+
+        <br><br>
+
+        <label>Date of Birth:</label><br>
+        <input class="textbox" type="date">
+
+        <br><br>
+
+        <button class="btn" type="submit">Register</button>
+
+    </form>
+
+    <hr>
+
+    <h1 class="heading">Submitted Students (Dummy Data)</h1>
+
+    <table class="table" border="1" >
+
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Skills</th>
+            <th>DOB</th>
+        </tr>
+
+        <tr>
+            <td>Alice</td>
+            <td>alice@example.com</td>
+            <td>Female</td>
+            <td>HTML, CSS</td>
+            <td>2002-05-10</td>
+        </tr>
+
+        <tr>
+            <td>Bob</td>
+            <td>bob@example.com</td>
+            <td>Male</td>
+            <td>JavaScript</td>
+            <td>2001-11-22</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
